@@ -17,8 +17,8 @@ public class App
 //        		
 //        	}
 //        }
-        File folder = new File("my new file");
-        File newfolder = new File("my new file-new");
+        File folder = new File("my new file-new/two/three");
+        File newfolder = new File("my new file-new/three");
         if(folder.renameTo(newfolder)){
         	System.out.println("done");
         }else{
